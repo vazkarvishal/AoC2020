@@ -8,7 +8,7 @@ logging.getLogger().setLevel(logging.INFO)
 def main():
   
   with open ("./input.txt") as password_collection:
-    # part_one(password_collection)
+    part_one(password_collection)
     part_two(password_collection)
 
 def part_one(password_collection):
