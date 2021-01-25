@@ -34,12 +34,11 @@ def main():
     trees_found = 0
     step_right, step_down = slope
     logging.debug(f"right is {step_right} down is {step_down}")
-    # directions_to_airport = required_characters_calculation(int(step_right))
     trees_found = move_toboggan(int(step_right), int(step_down))
     logging.info(f" trees found on our way are {trees_found}")
     trees_found_in_all_slopes = trees_found_in_all_slopes*trees_found
   logging.info(f" total trees found on our way are {trees_found_in_all_slopes}")
-  
+
 if __name__ == "__main__":
   main()
 
